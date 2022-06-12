@@ -102,7 +102,7 @@ color: #333333;
     
 }
 
-.card {
+.card-comida {
     width: 172px;
     height: 207px;
     display: inline-block;
@@ -121,12 +121,12 @@ color: #333333;
 
 }
 
-.card ion-icon {
+.card-comida ion-icon {
    display: none;
 
 }
 
-.card h2 {
+.card-comida h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -136,7 +136,7 @@ color: #333333;
     color: #333333;
 }
 
-.card h3 {
+.card-comida h3 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
@@ -146,7 +146,7 @@ color: #333333;
     color: #A6A6A6;
 }
 
-.card p{
+.card-comida p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -156,7 +156,127 @@ color: #333333;
     display: block;
     margin-top: 5px;
 }
-.card img{
+.card-comida img{
+    width: 144px;
+    height: 87px;
+    margin-bottom: 8px;
+}
+
+.card-bebida {
+    width: 172px;
+    height: 207px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin-right: 16px;
+    padding: 18px 20px 18px 20px;
+    z-index: 0;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 9px;
+    
+
+}
+
+.card-bebida ion-icon {
+   display: none;
+
+}
+
+.card-bebida h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #333333;
+}
+
+.card-bebida h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #A6A6A6;
+}
+
+.card-bebida p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    display: block;
+    margin-top: 5px;
+}
+.card-bebida img{
+    width: 144px;
+    height: 87px;
+    margin-bottom: 8px;
+}
+
+.card-sobremesa {
+    width: 172px;
+    height: 207px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin-right: 16px;
+    padding: 18px 20px 18px 20px;
+    z-index: 0;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 9px;
+    
+
+}
+
+.card-sobremesa ion-icon {
+   display: none;
+
+}
+
+.card-sobremesa h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #333333;
+}
+
+.card-sobremesa h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #A6A6A6;
+}
+
+.card-sobremesa p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    display: block;
+    margin-top: 5px;
+}
+.card-sobremesa img{
     width: 144px;
     height: 87px;
     margin-bottom: 8px;
@@ -195,7 +315,7 @@ left: 207px;
 
 /* Aqui começa o CSS dos itens selecionados */
 
-.card-selecionado {
+.card-comida-selecionado {
 
     width: 172px;
     height: 207px;
@@ -215,7 +335,7 @@ left: 207px;
 
 }
 
-.card-selecionado ion-icon {
+.card-comida-selecionado ion-icon {
   
 position: absolute;
 right: 15px;
@@ -226,7 +346,7 @@ font-size: 25px;
 
 }
 
-.card-selecionado h2 {
+.card-comida-selecionado h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -236,7 +356,7 @@ font-size: 25px;
     color: #333333;
 }
 
-.card-selecionado h3 {
+.card-comida-selecionado h3 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
@@ -246,7 +366,7 @@ font-size: 25px;
     color: #A6A6A6;
 }
 
-.card-selecionado p{
+.card-comida-selecionado p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -256,7 +376,142 @@ font-size: 25px;
     display: block;
     margin-top: 5px;
 }
-.card-selecionado img{
+.card-comida-selecionado img{
+    width: 144px;
+    height: 87px;
+    margin-bottom: 8px;
+}
+
+.card-bebida-selecionado {
+
+    width: 172px;
+    height: 207px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin-right: 16px;
+    padding: 18px 20px 18px 20px;
+    z-index: 0;
+    border-color: #32B72F;
+    border-style: solid;
+    border-width: 9px;
+    position: relative;
+
+}
+
+.card-bebida-selecionado ion-icon {
+  
+position: absolute;
+right: 15px;
+bottom: 10px;
+color: #32B72F;
+font-size: 25px;
+
+
+}
+
+.card-bebida-selecionado h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #333333;
+}
+
+.card-bebida-selecionado h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #A6A6A6;
+}
+
+.card-bebida-selecionado p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    display: block;
+    margin-top: 5px;
+}
+.card-bebida-selecionado img{
+    width: 144px;
+    height: 87px;
+    margin-bottom: 8px;
+}
+
+
+.card-sobremesa-selecionado {
+
+    width: 172px;
+    height: 207px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin-right: 16px;
+    padding: 18px 20px 18px 20px;
+    z-index: 0;
+    border-color: #32B72F;
+    border-style: solid;
+    border-width: 9px;
+    position: relative;
+
+}
+
+.card-sobremesa-selecionado ion-icon {
+  
+position: absolute;
+right: 15px;
+bottom: 10px;
+color: #32B72F;
+font-size: 25px;
+
+
+}
+
+.card-sobremesa-selecionado h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #333333;
+}
+
+.card-sobremesa-selecionado h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #A6A6A6;
+}
+
+.card-sobremesa-selecionado p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    display: block;
+    margin-top: 5px;
+}
+.card-sobremesa-selecionado img{
     width: 144px;
     height: 87px;
     margin-bottom: 8px;
